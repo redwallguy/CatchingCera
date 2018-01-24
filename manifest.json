@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Catching Cera",
+    "version": "0.1",
+    
+    "default_locale": "en",
+    "description": "Embeds a Cera to find on some % of pages",
+    "icons": {
+        "16": "cera16.png",
+        "48": "cera48.png",
+        "128": "cera128.png"
+    },
+    
+    "browser_action": {
+        "default_icon": "ceraBadge.png"
+    },
+    "content_scripts": ["catchingcera.js","jquery-1.12.2.min.js"],
+    "permissions": ["storage","tabs","webNavigation"],
+    "background": {
+        "scripts": ["background.js","jquery-1.12.2.min.js"],
+        "presistent": false
+    }
+}
