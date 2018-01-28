@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Catching Cera",
-    "version": "1.0",
+    "version": "1.1",
     
     "default_locale": "en",
     "description": "Embeds a Cera to find on some % of pages",
@@ -19,7 +19,7 @@
     "permissions": ["storage","tabs"],
     "background": {
         "scripts": ["background.js"],
-        "presistent": false
+        "persistent": false
     },
     
     "web_accessible_resources": ["*.png"]
