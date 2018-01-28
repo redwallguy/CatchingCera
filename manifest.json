@@ -1,23 +1,26 @@
 {
     "manifest_version": 2,
     "name": "Catching Cera",
-    "version": "0.1",
+    "version": "1.0",
     
     "default_locale": "en",
     "description": "Embeds a Cera to find on some % of pages",
     "icons": {
-        "16": "cera16.png",
-        "48": "cera48.png",
-        "128": "cera128.png"
+        "128": "ceraBadge.png"
     },
     
     "browser_action": {
         "default_icon": "ceraBadge.png"
     },
-    "content_scripts": ["catchingcera.js","jquery-1.12.2.min.js"],
-    "permissions": ["storage","tabs","webNavigation"],
+    "content_scripts": [{
+           "matches": ["<all_urls>"],
+           "js": ["catchingcera.js","jquery-1.12.2.min.js"]
+    }],
+    "permissions": ["storage","tabs"],
     "background": {
-        "scripts": ["background.js","jquery-1.12.2.min.js"],
+        "scripts": ["background.js"],
         "presistent": false
-    }
+    },
+    
+    "web_accessible_resources": ["*.png"]
 }

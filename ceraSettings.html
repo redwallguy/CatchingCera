@@ -7,17 +7,46 @@
     <body>
         <h1>Cera Settings</h1>
         <div id="settings">
+            <div id="CP">Cera spawn percentage</div>
             <input type="range" min="0" max="100" value="69" id="ceraPercent">
             <label for="ceraPercent" id="CPLabel"></label>
             
-            <input type="range" min="1" max="100" value="10" id="ceraSize">
+            <div id="CS">Cera size</div>
+            <input type="range" min="1" max="100" value="5" id="ceraSize">
             <label for="ceraSize" id="CSLabel"></label>
+            
+            <div id="CT">Cera timeout period</div>
+            <input type="range" min="1" max="100" value="10" id="ceraTime">
+            <label for="ceraTime" id="CTLabel"></label>
             
             <button type="button" id="resetSettings">Reset settings</button>
         </div>
         <div id="statistics">
-            <label id="timesFound"></label>
-            <label id="percentFound"></label>
+            <div id="stat1">
+                <div id="CTS">Number of Cera spawns</div>
+                <label id="timesSpawned">0</label>
+            </div>
+            
+            <div id="stat2">
+                <div id="CTF">Number of Ceras found</div>
+                <label id="timesFound">0</label>
+            </div>
+            
+            <div id="stat3">
+                <div id="CPF">Percent of Ceras found</div>
+                <label id="percentFound">0</label>
+            </div>
+            
+            <div id="stat4">
+                <div id="CATTF">Average time to find Cera</div>
+                <label id="avgTimeToFind">0</label>
+            </div>
+            
+            <div id="stat5">
+                <div id="CTTTF">Total time finding Cera</div>
+                <label id="totalTimeToFind">0</label>
+            </div>
+            
             <button type="button" id="resetStats">Reset statistics</button>
         </div>
         <div id="save">

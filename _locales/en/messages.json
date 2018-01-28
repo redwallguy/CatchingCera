@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Catching Cera",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Hides Cera on a % of web pages for the user to find.", 
+    "description":"The description of the application, displayed in the web store."
+  }
+}

@@ -16,3 +16,131 @@ label:active, button:active {
   background-color: #0D3F8F;
   color: white;
 }
+
+#settings {
+    width: 200px;
+    height:250px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#statistics {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#save {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#ceraPercent {
+    position:absolute;
+    top:25px;
+}
+
+#ceraSize {
+    position: absolute;
+    top:95px;
+}
+
+#ceraTime {
+    position: absolute;
+    top: 165px;
+}
+
+#resetSettings {
+    position: absolute;
+    top:200px;
+}
+
+#CPLabel {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+
+#CSLabel {
+    position: absolute;
+    top: 95px;
+    left: 150px;
+}
+
+#CTLabel {
+    position: absolute;
+    top: 165px;
+    left: 150px;
+}
+
+#CP {
+    position: absolute;
+    top: 0px;
+}
+
+#CS {
+    position: absolute;
+    top: 70px;
+}
+
+#CT {
+    position: absolute;
+    top: 140px;
+}
+
+
+#resetStats {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#statistics > div {
+    position: absolute;
+}
+
+#stat1 {
+    top: 0%;
+}
+
+#stat2 {
+    top: 15%;
+}
+
+#stat3 {
+    top: 30%;
+}
+
+#stat4 {
+    top: 45%
+}
+
+#stat5 {
+    top: 60%;
+}
+
+#timesSpawned, #avgTimeToFind, #percentFound, #timesFound, #totalTimeToFind {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
